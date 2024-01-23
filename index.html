@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TailwindCSS Template</title>
+  <link href="dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper relative mx-auto text-white font-titillium font-normal text-normal">
+    <header class="header bg-theme-purple fixed mx-auto w-full z-20 top-0">
+      <div class="l-inner flex justify-between py-8 md:py-104 px-26 lg:px-36">
+        <h1 class="pl-0 md:pl-16 z-30 relative w-4/12 md:w-full"><a href="index.html"><img src="img/img_logo.png" alt="Cuda"></a></h1>
+        <nav class="nav-bar">
+          <ul class="lg:flex pt-48 pb-10 lg:py-4 text-center">
+            <li class="mr-100 py-6 lg:py-0"><a class="nav-item" href="#home">HOME</a></li>
+            <li class="mr-100 py-6 lg:py-0"><a class="nav-item" href="#about">ABOUT</a></li>
+            <li class="mr-100 py-6 lg:py-0"><a class="nav-item" href="#work">WORK</a></li>
+            <li class="mr-100 py-6 lg:py-0"><a class="nav-item" href="#blog">BLOG</a></li>
+            <li class="py-6 lg:py-0"><a class="nav-item" href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+        <p class="nav-btn block lg:hidden">
+          <span class="top-0"></span>
+          <span class="top-4 md:top-6"></span>
+          <span class="bottom-0"></span>
+        </p>
+      </div>
+    </header>
+    <section id="home" class="sec-mv bg-theme-purple mt-28 md:mt-60 pb-48 md:pb-110">
+      <div class="l-inner text-center">
+        <h2 class="font-bold text-5xl md:text-2xl-txt pt-107 pb-103">Hi there! We are the new kids on the block<br class="hidden lg:block">
+          and we build awesome websites and mobile apps.</h2>
+        <a href="#work" class="px-20 md:px-32 cmn-btn bg-theme-orange border-theme-orange">WORK WITH US!</a>
+      </div>
+    </section>
+    <section class="bg-theme-green pt-44 pb-36 md:pb-108">
+      <div class="l-inner text-center">
+        <h2 class="cmn-ttl after:bg-deep-green">SERVICES WE PROVIDE</h2>
+        <p class="cmn-txt">We are working with both individuals and businesses from all over the globe<br class="md:block hidden">
+          to create awesome websites and applications.</p>
+        <ul class="flex flex-wrap mx-auto w-service-list pt-20 md:pt-28">
+          <li class="list-item mr-0 md:mr-service-item">
+            <img src="img/img_flag.png" alt="BRANDING" class="mx-auto pb-103">
+            <h3 class="list-ttl pb-6">BRANDING</h3>
+            <p class="px-5 leading-11 font-light">Lorem ipsum dolor sit amet,
+              consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+          </li>
+          <li class="list-item mr-0 lg:mr-service-item">
+            <img src="img/img_crayon.png" alt="DESIGN" class="mx-auto pb-102">
+            <h3 class="list-ttl pb-6">DESIGN</h3>
+            <p class="px-5 leading-11 font-light">Sed ut perspiciatis unde omnis iste natus error sit voluptatem </p>
+          </li>
+          <li class="list-item mr-0 md:mr-service-item">
+            <img src="img/img_gears.png" alt="DEVELOPMENT" class="mx-auto pb-103">
+            <h3 class="list-ttl pb-6">DEVELOPMENT</h3>
+            <p class="px-5 leading-11 font-light">At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
+          </li>
+          <li class="list-item">
+            <img src="img/img_rocket.png" alt="ROCKET SCIENCE" class="mx-auto pb-102">
+            <h3 class="list-ttl pb-6">ROCKET SCIENCE</h3>
+            <p class="px-5 leading-11 font-light">Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="about" class="text-deep-blue bg-theme-sky pt-44 pb-36">
+      <div class="l-inner text-center">
+        <h2 class="cmn-ttl after:bg-bright-sky">MEET OUR BEAUTIFUL TEAM</h2>
+        <p class="cmn-txt pt-3">We are a small team of designers and developers, who help brands with big ideas.</p>
+        <ul class="flex flex-wrap mx-auto w-meet-list pt-24">
+          <li class="list-item mr-service-item">
+            <img src="img/img_mugshot.png" alt="ANNE HATHAWAY">
+            <h3 class="list-ttl pt-101 pb-8">ANNE HATHAWAY<span class="block text-bright-blue text-normal pt-4">CEO / Marketing Guru</span></h3>
+            <p class="list-txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+            <ul class="flex justify-center pt-9">
+              <li class="ico"><a href="#"><img src="img/img_fb_icn.png" alt="Facebook"></a></li>
+              <li class="ico"><a href="#"><img src="img/img_twit_icn.png" alt="Twitter"></a></li>
+              <li class="ico"><a href="#"><img src="img/img_in_icn.png" alt="Linkin"></a></li>
+              <li class="ico"><a href="#"><img src="img/img_mail_icn.png" alt="Mail"></a></li>
+            </ul>
+          </li>
+          <li class="list-item mr-0 lg:mr-service-item">
+            <img src="img/img_mugshot.png" alt="KATE UPTON">
+            <h3 class="list-ttl pt-101 pb-8">KATE UPTON<span class="block text-bright-blue text-normal pt-4">Creative Director</span></h3>
+            <p class="list-txt">Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.</p>
+            <ul class="flex justify-center pt-9">
+              <li class="ico"><a href="#"><img src="img/img_twit_icn.png" alt="Twitter"></a></li>
+              <li class="ico"><a href="#"><img src="img/img_in_icn.png" alt="Linkin"></a></li>
+              <li class="ico"><a href="#"><img src="img/img_mail_icn.png" alt="Mail"></a></li>
+            </ul>
+          </li>
+          <li class="list-item mr-service-item">
+            <img src="img/img_mugshot.png" alt="OLIVIA WILDE">
+            <h3 class="list-ttl pt-101 pb-8">OLIVIA WILDE<span class="block text-bright-blue text-normal pt-4">Lead Designer</span></h3>
+            <p class="list-txt">Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.</p>
+            <ul class="flex justify-center pt-9">
+              <li class="ico"><a href="#"><img src="img/img_fb_icn.png" alt="Facebook"></a></li>
+              <li class="ico"><a href="#"><img src="img/img_twit_icn.png" alt="Twitter"></a></li>
+              <li class="ico"><a href="#"><img src="img/img_in_icn.png" alt="Linkin"></a></li>
+              <li class="ico"><a href="#"><img src="img/img_mail_icn.png" alt="Mail"></a></li>
+            </ul>
+          </li>
+          <li class="list-item">
+            <img src="img/img_mugshot.png" alt="ASHLEY GREENE">
+            <h3 class="list-ttl pt-101 pb-8">ASHLEY GREENE<span class="block text-bright-blue text-normal pt-4">SEO / Developer</span></h3>
+            <p class="list-txt">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            <ul class="flex justify-center pt-9">
+              <li class="ico"><a href="#"><img src="img/img_fb_icn.png" alt="Facebook"></a></li>
+              <li class="ico"><a href="#"><img src="img/img_twit_icn.png" alt="Twitter"></a></li>
+              <li class="ico"><a href="#"><img src="img/img_mail_icn.png" alt="Mail"></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="text-deep-blue pt-109 pb-36 md:pb-107">
+      <div class="l-inner text-center">
+        <h2 class="cmn-ttl after:bg-theme-gray">WE GOT SKILLS!</h2>
+        <p class="cmn-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br class="md:block hidden">
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+        <ul class="flex flex-wrap mx-auto w-skill-list pt-105">
+          <li class="mr-0 md:mr-skill-item mb-16 w-full md:w-skill-item">
+            <img src="img/img_webdesign.png" alt="WEB DESIGN">
+            <h3 class="skill-ttl">WEB DESIGN</h3>
+          </li>
+          <li class="mr-0 md:mr-skill-item mb-16 w-full md:w-skill-item">
+            <img src="img/img_html.png" alt="HTML / CSS">
+            <h3 class="skill-ttl">HTML / CSS</h3>
+          </li>
+          <li class="mr-0 md:mr-skill-item mb-16 w-full md:w-skill-item">
+            <img src="img/img_graphic.png" alt="GRAPHIC DESIGN">
+            <h3 class="skill-ttl">GRAPHIC DESIGN</h3>
+          </li>
+          <li class="mb-16 w-full md:w-skill-item">
+            <img src="img/img_uiux.png" alt="UI /UX">
+            <h3 class="skill-ttl">UI /UX</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="work" class="bg-theme-yellow text-deep-blue py-44">
+      <div class="l-inner text-center">
+        <h2 class="cmn-ttl after:bg-bright-yellow">OUR PORTFOLIO</h2>
+        <p class="cmn-txt">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet<br class="md:block hidden">
+          consectetur, adipisci velit, sed quia non numquam</p>
+        <ul class="flex justify-center text-xl md:text-3xl pt-11">
+          <li class="tab-item">ALL</li>
+          <li class="tab-item">WEB</li>
+          <li class="tab-item">APPS</li>
+          <li class="tab-item">ICONS</li>
+        </ul>
+        <ul class="pt-11 md:pt-24 flex flex-wrap mx-auto w-work-list mb-6">
+          <li class="mr-0 md:mr-work-item mb-16 w-full md:w-work-item">
+            <img src="img/img_web01.png" alt="Isometric Perspective Mock-Up">
+            <h3 class="web-ttl">ISOMETRIC PERSPECTIVE MOCK-UP</h3>
+          </li>
+          <li class="mb-16 w-full md:w-work-item">
+            <img src="img/img_web02.png" alt="Time Zone App UI">
+            <h3 class="web-ttl">TIME ZONE APP UI</h3>
+          </li>
+          <li class="mr-0 md:mr-work-item mb-16 w-full md:w-work-item">
+            <img src="img/img_web03.png" alt="Viro Media Players UI">
+            <h3 class="web-ttl">VIRO MEDIA PLAYERS UI</h3>
+          </li>
+          <li class="mb-16 w-full md:w-work-item">
+            <img src="img/img_web04.png" alt="Blog / Magazine Flat UI Kit">
+            <h3 class="web-ttl">BLOG/MAGAZINE FLAT UI KIT</h3>
+          </li>
+        </ul>
+        <a href="#" class="px-12 md:px-103 cmn-btn bg-theme-green border-theme-green">LOAD MORE PROJECTS</a>
+      </div>
+    </section>
+    <section id="blog" class="bg-theme-pink pt-44 pb-36 md:pb-52">
+      <div class="l-inner">
+        <div class="text-center">
+          <h2 class="cmn-ttl after:bg-deep-pink">WHAT POEPLE SAY ABOUT US</h2>
+          <p class="cmn-txt">Our clients love us!</p>
+        </div>
+        <ul class="flex flex-wrap mx-auto w-full md:w-work-list mt-20">
+          <li class="blog-content mb-8 lg:mb-101 mr-0 lg:mr-blog-item">
+            <img src="img/img_base.png" alt="CHANEL IMAN" class="h-blog-img mx-auto">
+            <div class="blog-item-txt">
+              <p class="blog-txt">“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</p>
+              <h3 class="blog-name">CHANEL IMAN<span>CEO of Pinterest</span></h3>
+            </div>
+          </li>
+          <li class="blog-content mb-8 lg:mb-101">
+            <img src="img/img_base.png" alt="ADRIANA LIMA" class="h-blog-img mx-auto">
+            <div class="blog-item-txt">
+              <p class="blog-txt"> “Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</p>
+              <h3 class="blog-name">ADRIANA LIMA<span>Founder of Instagram</span></h3>
+            </div>
+          </li>
+          <li class="blog-content mb-8 lg:mb-0 mr-0 lg:mr-blog-item">
+            <img src="img/img_base.png" alt="ANNE HATHAWAY" class="h-blog-img mx-auto">
+            <div class="blog-item-txt">
+              <p class="blog-txt">“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</p>
+              <h3 class="blog-name">ANNE HATHAWAY<span>Lead Designer at Behance</span></h3>
+            </div>
+          </li>
+          <li class="blog-content mb-8 lg:mb-0">
+            <img src="img/img_base.png" alt="EMMA STONE" class="h-blog-img mx-auto">
+            <div class="blog-item-txt">
+              <p class="blog-txt">“Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus sem cursus neque.”</p>
+              <h3 class="blog-name">EMMA STONE<span>Co-Founder of Shazam</span></h3>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="contact" class="bg-theme-blue pt-44 pb-36 md:pb-48">
+      <div class="l-inner">
+        <div class="text-center">
+          <h2 class="cmn-ttl after:bg-deep-blue">GET IN TOUCH</h2>
+          <p class="cmn-txt"><a href="https://goo.gl/maps/nqr1P9KT5ekA5GGc8">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. </a><a href="tel:2024561111" class="inline-block"> Tel: (202) 456-1111</a></p>
+        </div>
+        <form class="input-form w-full lg:w-form-blk mx-auto pt-103">
+          <input type="text" id="name" placeholder="Your Name" class="w-full md:w-input mb-11 mr-0 md:mr-input">
+          <input type="email" id="email" placeholder="Your Email" class="w-full md:w-input  mb-11">
+          <textarea id="text" placeholder="Your Message" rows="7" cols="5" class="w-full resize-none mb-24"></textarea>
+        </form>
+        <p class="text-center"><button class="px-20 md:px-32 cmn-btn bg-bright-blue border-bright-blue">SEND MESSAGE</button></p>
+      </div>
+    </section>
+    <footer class="bg-theme-blue py-16">
+      <div class="l-inner">
+        <ul class="flex flex-wrap w-full lg:w-footer-list mx-auto">
+          <li class="mr-footer-item"><a href="#" class="footer-link">Facebook</a></li>
+          <li class="mr-footer-item"><a href="#" class="footer-link">Twitter</a></li>
+          <li class="mr-footer-item"><a href="#" class="footer-link">Google+</a></li>
+          <li class="mr-footer-item"><a href="#" class="footer-link">LinkedIn</a></li>
+          <li class="mr-footer-item"><a href="#" class="footer-link">Behance</a></li>
+          <li class="mr-footer-item"><a href="#" class="footer-link">Dribbble</a></li>
+          <li><a href="#" class="footer-link">GitHub</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div><!-- /.wrapper-->
+  <script src="js/library/jquery-3.6.1.min.js"></script>
+  <script src="js/common.js"></script>
+</body>
+
+</html>

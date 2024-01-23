@@ -1,0 +1,1 @@
+{"name":"template","version":"main","main":"index.js","scripts":{"build-css":"npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"},"devDependencies":{"cross-env":"^7.0.3","tailwindcss":"^3.3.3"}}
