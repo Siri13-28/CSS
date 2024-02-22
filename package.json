@@ -1,0 +1,11 @@
+{ "name": "tutorial",
+  "version": "main",
+  "main" : "main.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
+

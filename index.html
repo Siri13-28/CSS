@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tutorial</title>
+  <link href="dist/output.css" rel="stylesheet">
+</head>
+<body class="font-titilliumweb sm:text-lg text-base">
+  <div class="wrapper">
+    <header class="flex justify-between items-center px-6 py-2.5 bg-yellow-50">
+      <h1 class="w-20"><a href="#"><img src="img/img_logo.png" alt="Logo"></a></h1>
+      <ul class="sm:flex inline-block sm:text-xl text-base tracking-wide text-white text-center">
+        <li class="sm:mr-3 sm:mb-0 mb-1 sm:py-1 py-0.5 px-3 bg-blue-600 hover:bg-blue-300 delay-100 menu-btn"><a href="#about">About</a></li>
+        <li class="sm:py-1 py-0.5 px-3 bg-blue-600 hover:bg-blue-300 delay-100 menu-btn"><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+    <section class="py-16 text-center bg-orange-300">
+      <div class="xl:container mx-auto px-6 sm:px-0">
+        <h2 class="text-3xl pb-3">The Breed Standard</h2>
+        <img src="img/img_031.png" alt="The Breed Standard" class="mx-auto">
+        <p class="py-3">A description of the ideal dog of each recognized breed, <br class="sm:block hidden">to serve as an ideal against which dogs are judged at shows, <br class="sm:block hidden"> originally laid down by a parent breed club and accepted officially by national or <br class="sm:block hidden">international bodies.</p>
+      </div>
+    </section>
+    <section class="py-16 bg-gradient-to-t from-white via-amber-100" id="about">
+      <div class="xl:container mx-auto px-6 sm:px-0">
+        <h2 class="text-3xl pb-3 text-center">About Shiba Inu</h2>
+        <div class="sm:flex block justify-center items-center py-3">
+          <p class="sm:w-1/2 w-full p-2">The Shiba Inu is a breed of hunting dog from Japan. A small-to-medium breed, it is the smallest of the six original breed of dogs native to Japan. Its name literally translates to "brushwood dog", as it is used to flush game.</p>
+          <p class="w-60 sm:m-0 mx-auto"><img src="img/img_01.jpg" alt="About Shiba Inu"></p>
+        </div>
+      </div>
+    </section>
+    <section class="py-16 bg-third-sec">
+      <div class="xl:container mx-auto px-6 sm:px-0">
+        <div class="max-w-3xl bg-white rounded-xl mx-auto py-8">
+          <h2 class="text-center text-3xl">In popular culture</h2>
+          <p class="sm:p-8 p-3">Despite not being a popular dog breed outside of Japan, the Shiba Inu has become popular on the Internet. Doge is an Internet meme from 2013 including a Shiba Inu and broken English. A popular cryptocurrency, Dogecoin, is named after this meme and its logo bears an image of the Shiba Inu. According to Jamie Cohen, an assistant professor of media studies at Queens College of the City University of New York, the Shiba Inu breed has had a significant presence in online culture since at least 2010.</p>
+        </div>
+      </div>
+    </section>
+    <section class="py-16 text-center">
+      <div class="xl:container mx-auto px-6 sm:px-0">
+        <h2 class="text-3xl pb-3">List of Shiba Inu</h2>
+        <ul class="flex flex-wrap justify-center text-2xl">
+          <li class="sm:w-2/5 w-full sm:mr-8 mb-8 p-7 border border-sky-300">
+            <img src="img/img_list01.jpg" alt="list01">
+            <h3 class="text-2xl py-8">Sesame Shiba Inu</h3>
+          </li>
+          <li class="sm:w-2/5 w-full mb-8 p-7 border border-sky-300">
+            <img src="img/img_list02.jpg" alt="list02">
+            <h3 class="text-2xl py-6">Tan Shiba Inu</h3>
+          </li>
+          <li class="sm:w-2/5 w-full sm:mr-8 mb-8 p-7 border border-sky-300">
+            <img src="img/img_list03.jpg" alt="list03">
+            <h3 class="text-2xl py-6">Urajiro Shiba Inu</h3>
+          </li>
+          <li class="sm:w-2/5 w-full mb-8 p-7 border border-sky-300">
+            <img src="img/img_list04.jpg" alt="list04">
+            <h3 class="text-2xl py-6">Red Shiba Inu</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="py-16 bg-blue-200" id="contact">
+      <div class="xl:container mx-auto px-6 sm:px-0">
+        <h2 class="relative z-10 text-3xl pb-3 text-center text-white"><span class="contact-line bg-blue-500 inline-block py-1 px-5 rounded-lg">Contact</span></h2>
+        <div class="flex justify-around flex-wrap text-lg pt-16">
+          <ul class="sm:w-2/5 w-full">
+            <li class="contact-item contact-icn">09-66645926</li>
+            <li class="contact-item contact-icn">No.(5/11), Surawat (1)street, Mahar.</li>
+          </ul>
+          <form class="sm:w-2/5 w-full">
+            <label for="email" class="block sm:pl-16 pl-0">Your Email</label>
+            <input type="email" id="email" placeholder="Email" class="block p-2 my-6 sm:w-3/4 w-full mx-auto outline-none">
+            <button class="border border-blue-500 bg-blue-500 text-white hover:bg-blue-400 py-2 px-4 block mx-auto">SEND MESSAGE</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="js/jquery-3.7.0.min.js"></script>
+  <script src="js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "TitilliumWeb";
+  src: url("../font/TitilliumWeb-Regular.ttf");
+}
+
+.contact-line {
+  @apply before:absolute before:bg-blue-500 before:h-1 before:sm:w-1/2 before:w-full before:inset-x-0 before:top-5 before:mx-auto before:z-min-1
+}
+
+.contact-item {
+  @apply mb-6 pl-8 relative
+}
+
+.contact-icn {
+  @apply before:absolute before:left-2 before:top-2 before:bg-contact-icn before:w-3 before:h-3 before:bg-center before:bg-no-repeat before:bg-contain
+}
